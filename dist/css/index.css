@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 2rem 0;
+}
+
+h1 {
+  font-size: clamp(1.6rem, 1.434rem + 0.71vw, 2rem);
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+h1 span {
+  font-weight: 600;
+}
+h1 + p {
+  text-align: center;
+  width: clamp(21.33rem, 12.535rem + 26.52vw, 33.75rem);
+  margin-bottom: 2rem;
+}
+
+section {
+  width: clamp(23rem, 21.55rem + 6.19vw, 26.5rem);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.2em 1em 1em hsl(0, 0%, 85%);
+  margin-top: 2rem;
+  color: hsl(234, 12%, 34%);
+}
+section h2 {
+  margin-bottom: 0.5rem;
+}
+section p {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 1.5rem;
+  max-width: 35rem;
+}
+section .icon {
+  text-align: end;
+}
+
+.supervisor {
+  border-top: 5px hsl(180, 62%, 55%) solid;
+}
+
+.team-builder {
+  border-top: 5px hsl(0, 78%, 62%) solid;
+}
+
+.karma {
+  border-top: 5px hsl(34, 97%, 64%) solid;
+}
+
+.calculator {
+  border-top: 5px hsl(212, 86%, 64%) solid;
+}
+
+@media (min-width: 1440px) {
+  .sects {
+    display: grid;
+    grid-template: repeat(4, 1fr)/repeat(3, 1fr);
+    gap: 2rem;
+  }
+  section {
+    width: 25rem;
+    margin-top: 0;
+  }
+  .supervisor {
+    border-top: 5px hsl(180, 62%, 55%) solid;
+    grid-area: 2/1/4/2;
+  }
+  .team-builder {
+    border-top: 5px hsl(0, 78%, 62%) solid;
+    grid-area: 1/2/3/4;
+  }
+  .karma {
+    border-top: 5px hsl(34, 97%, 64%) solid;
+    grid-area: 3/2/5/4;
+  }
+  .calculator {
+    border-top: 5px hsl(212, 86%, 64%) solid;
+    grid-area: 2/3/4/5;
+  }
+}/*# sourceMappingURL=index.css.map */
