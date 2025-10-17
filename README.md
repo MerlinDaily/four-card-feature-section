@@ -36,8 +36,8 @@ _Desktop view_
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/MerlinDaily/four-card-feature-section)
+- Live Site URL: [live site URL here](https://merlindaily.github.io/four-card-feature-section/)
 
 ## My process
 
@@ -49,7 +49,7 @@ _Desktop view_
 
 ### What I learned
 
-I got a little familiar with using Grid layout. [Flexboxfroggy](https://flexboxfroggy.com) helped out a ton!
+I got familiar with using Grid layout. [Flexboxfroggy](https://flexboxfroggy.com) helped out a ton!
 
 ### Useful resources
 
